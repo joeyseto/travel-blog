@@ -1,26 +1,26 @@
+import Image from "next/image";
 import Link from "next/link";
 
-type TripCardProps = {
+type Props = {
   title: string;
   description: string;
   image: string;
   link: string;
 };
 
-export default function TripCard({ title, description, image, link }: TripCardProps) {
+export default function TripCard({ title, description, image, link }: Props) {
   return (
-    <div className="border rounded-lg overflow-hidden shadow hover:shadow-lg transition-shadow">
-      <img src={image} alt={title} className="w-full h-48 object-cover" />
+    <article className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
+      <div className="relative w-full h-48 md:h-56">
+        <Image src={image} alt={title} fill className="object-cover" />
+      </div>
       <div className="p-4">
-        <h4 className="text-xl font-semibold mb-2">{title}</h4>
-        <p className="text-gray-600 mb-4">{description}</p>
-        <Link
-          href={link}
-          className="text-blue-600 font-semibold hover:underline"
-        >
+        <h3 className="text-lg font-semibold mb-1">{title}</h3>
+        <p className="text-sm text-gray-600 mb-3">{description}</p>
+        <Link href={link} className="text-blue-600 font-medium hover:underline">
           Read More →
         </Link>
       </div>
-    </div>
+    </article>
   );
 }
