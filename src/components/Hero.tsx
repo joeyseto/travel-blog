@@ -1,25 +1,18 @@
-import Image from "next/image";
+import React from "react";
 
 export default function Hero() {
   return (
-    <section className="relative h-[80vh] md:h-[88vh]">
-      <Image
-        src="/images/hero-travel.jpg"
-        alt="Hero"
-        fill
-        className="object-cover brightness-75"
-        priority
-      />
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6">
-        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight max-w-4xl">
+    <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-24 text-center">
+      <div className="max-w-4xl mx-auto px-6">
+        <h1 className="text-5xl md:text-6xl font-extrabold mb-6">
           Adventures with Joey Seto
         </h1>
-        <p className="mt-4 text-lg md:text-xl max-w-2xl text-gray-100/90">
-          Real stories, practical guides, and photos from Canada, the US, and abroad.
+        <p className="text-xl md:text-2xl mb-8">
+          Exploring the world one city, beach, and hidden gem at a time.
         </p>
         <a
           href="#featured"
-          className="mt-8 inline-block bg-white text-gray-900 px-6 py-3 rounded-full font-semibold shadow hover:bg-gray-100 transition"
+          className="bg-white text-blue-700 font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-100 transition"
         >
           Explore Trips
         </a>

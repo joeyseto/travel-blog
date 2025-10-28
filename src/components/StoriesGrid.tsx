@@ -1,30 +1,43 @@
-import Image from "next/image";
-import Link from "next/link";
-
-const STORIES = [
-  { title: "Exploring Kyoto’s Hidden Shrines", img: "/images/kyoto.jpg", href: "/stories/kyoto" },
-  { title: "The Coastal Magic of Tofino", img: "/images/tofino.jpg", href: "/stories/tofino" },
-  { title: "A Weekend in San Francisco", img: "/images/sf.jpg", href: "/stories/sf" },
-];
+import React from "react";
 
 export default function StoriesGrid() {
+  const stories = [
+    {
+      title: "Chasing Sunsets in Bali",
+      image: "/images/bali.jpg",
+      excerpt: "The best beach spots and quiet escapes in Bali.",
+      link: "/stories/bali",
+    },
+    {
+      title: "Exploring Tokyo by Train",
+      image: "/images/tokyo.jpg",
+      excerpt: "Navigating Japan's rail system like a local.",
+      link: "/stories/tokyo",
+    },
+    {
+      title: "Hidden Cafes of Vancouver",
+      image: "/images/vancouver.jpg",
+      excerpt: "Discover cozy, must-visit coffee spots downtown.",
+      link: "/stories/vancouver",
+    },
+  ];
+
   return (
     <section className="bg-gray-50 py-16 px-6">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">Latest Stories</h2>
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {STORIES.map((s) => (
-            <article key={s.title} className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
-              <div className="relative w-full h-56">
-                <Image src={s.img} alt={s.title} fill className="object-cover" />
-              </div>
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Recent Stories</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {stories.map((story, i) => (
+            <div key={i} className="bg-white shadow rounded-lg overflow-hidden hover:shadow-md transition">
+              <img src={story.image} alt={story.title} className="w-full h-48 object-cover" />
               <div className="p-4">
-                <h3 className="text-lg font-semibold mb-2">{s.title}</h3>
-                <Link href={s.href} className="text-blue-600 font-medium hover:underline">
+                <h3 className="text-xl font-semibold mb-2">{story.title}</h3>
+                <p className="text-gray-600 mb-4">{story.excerpt}</p>
+                <a href={story.link} className="text-blue-600 font-semibold hover:underline">
                   Read Story →
-                </Link>
+                </a>
               </div>
-            </article>
+            </div>
           ))}
         </div>
       </div>
