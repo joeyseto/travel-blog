@@ -11,10 +11,11 @@ interface FeaturedTripsBannerProps {
   trips: Trip[];
 }
 
+
 const FeaturedTripsBanner: React.FC<FeaturedTripsBannerProps> = ({ trips }) => {
   return (
-    <div className="relative w-full overflow-hidden py-6 bg-gradient-to-b from-gray-50 to-gray-100">
-      <div className="flex justify-center gap-10 overflow-x-auto scrollbar-hide px-6">
+    <div className="relative w-full py-12 bg-gradient-to-b from-gray-50 to-gray-100">
+      <div className="flex justify-center gap-10 scrollbar-hide px-6">
         {trips.map((trip) => (
           <motion.div
             key={trip.id}
@@ -28,10 +29,10 @@ const FeaturedTripsBanner: React.FC<FeaturedTripsBannerProps> = ({ trips }) => {
               className="w-[15vw] h-[15vw] object-cover rounded-full shadow-lg"
             />
             {/* Overlay title */}
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="bg-black bg-opacity-50 text-white px-4 py-2 rounded-full text-base font-semibold tracking-wide">
+            <div className="absolute inset-0 flex items-center justify-center px-4">
+              <span className="bg-black bg-opacity-50 text-white px-4 py-2 rounded-full text-base font-semibold tracking-wide text-center block">
                 {trip.title}
-              </div>
+              </span>
             </div>
           </motion.div>
         ))}
