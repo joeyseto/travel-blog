@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
 
 export default function Hero() {
@@ -30,11 +31,7 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
-          <div className="mb-6">
-            <span className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm text-white text-sm tracking-widest uppercase rounded-full border border-white/20">
-              Discover · Explore · Eat
-            </span>
-          </div>
+         
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light text-white mb-2 leading-none">
             Adventures.<br />
             <span className="block font-serif italic text-gray-200 text-2xl md:text-3xl lg:text-4xl">by Joey Seto</span>
@@ -46,14 +43,15 @@ export default function Hero() {
             </p>
             <div className="h-px w-16 bg-white/50"></div>
           </div>
-          <motion.a
-            href="#featured"
-            className="inline-block px-12 py-5 border-2 border-white text-white font-bold tracking-widest hover:bg-white hover:text-black transition-all duration-300 uppercase text-sm"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Explore
-          </motion.a>
+          <Link href="/explore">
+            <motion.div
+              className="inline-block px-12 py-5 border-2 border-white text-white font-bold tracking-widest hover:bg-white hover:text-black transition-all duration-300 uppercase text-sm cursor-pointer"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              Explore
+            </motion.div>
+          </Link>
         </motion.div>
       </div>
     </section>
