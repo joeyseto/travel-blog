@@ -1,8 +1,7 @@
 import Head from "next/head";
 import Hero from "@/components/Hero";
-import FeaturedTripsBanner from "@/components/FeaturedTripsBanner";
-import StoriesGrid from "@/components/StoriesGrid";
-import Comments from "@/components/Comments";
+import StoriesGrid from "@/components/RecentStories";
+
 
 export default function Home() {
   const trips = [
@@ -12,7 +11,7 @@ export default function Home() {
     { id: 3, title: "Food", image: "/images/us-tx.jpg" },
 
   ];
-      <FeaturedTripsBanner trips={trips} />
+
 
   return (
     <>

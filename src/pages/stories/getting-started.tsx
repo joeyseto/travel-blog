@@ -9,74 +9,28 @@ export default function GettingStartedBackcountry() {
       heroImage="/images/GettingStartedGuide/mountmacfarlane.jpg"
       tags={["How to", "Nature", "Adventure", "Canada"]}
     >
-      <p>
-        Growing up, my family and I had never gone camping - not even once. As a first-generation 
-        immigrant family, my parents often worked their tails off to put food on the table and back 
-        then, most leisure activities required both time and money — two things they didn't have much 
-        of. And since our family mostly hung out with other immigrant families who also had little 
-        exposure to camping, it just wasn't part of our lives.
-      </p>
-
-      <p>
-        Still, I always loved being outdoors. Some of my fondest memories as a kid were simply 
-        spending time at the park. It wasn't until my mid-twenties that I finally discovered 
-        backpacking — and realized what I'd been missing my whole life.
-      </p>
-
-       <img 
-        src="/images/GettingStartedGuide/younger.jpg" 
-        alt="Childhood memories outdoors"
-        className="w-1/2 mx-auto rounded-lg shadow-lg my-8"
-      />
-
-      <p>
-        Fast forward a decade later, and I've spent the better part of 12 years building knowledge 
-        and experience in the backcountry. One thing that always fascinated me is how few people of 
-        colour I saw in the backcountry. I mean it makes sense - immigrant families tend to flock to 
-        their own - how would they have gotten into it if their parents, family friends and people 
-        around them didn't?
-      </p>
-
-      <p>
-        This guide is for anyone curious about getting started with backpacking — immigrant or not. 
-        My hope is that those who have no idea where to begin will take some solace in knowing that 
-        you're not alone and that even if you have no clue, you would be one step closer to packing 
-        your bags and getting out there. My goal is to make this as practical and approachable as 
-        possible, based on hard-earned lessons from the trail.
-      </p>
-
-        
-        <img 
-        src="/images/GettingStartedGuide/assiniboine.jpg" 
-        alt="Complete backpacking gear laid out"
-        className="w-1/2 mx-auto rounded-lg shadow-lg my-8"
-      />
+     
       <h2><strong>Gear: What You Actually Need (and What You Don't)</strong></h2>
 
 
       <p>
-        Let’s start with what a lot of people will ask: what kind of gear do I need? Where do I get it? How much will it cost me? 
-        I won’t sugarcoat it — backpacking isn’t a cheap hobby. Many of us spend thousands of dollars over the years building up our gear, 
-        often chasing marginal upgrades that save a few ounces or pack down just a little smaller. Well, I’m here to tell you that it’s not quite necessary.
+        Let’s start with the questions most people ask: what kind of gear do I need, where do I get it, and how much will it cost? Backpacking isn’t a cheap hobby — many of us spend thousands of dollars over the years chasing small upgrades that shave a few ounces or pack down a bit smaller. The good news is that you can absolutely be smart about what you buy so you get the best value for your money.
       </p>
 
       <p>
-        As someone who prides in having a “10lb base weight” ultralight set up - that is, all of the gear that I need to survive in the backcountry, 
-        excluding food, fuel and water clocks in at 10lbs - I can confidently say that isn’t the metric that will make or break your trip. 
-        Here’s my honest take: it’s not necessary when you’re just starting out. Instead I would focus on balancing three things: weight, budget, and comfort. 
-        The first two are self-explanatory: spending a thousand dollars to shave some ounces might not be worth it, but spending a hundred to cut a couple of pounds 
-        could be worth it. Comfort, while subjective, is something that seems underrated when you’re at home but it can mean everything when you’re out in the bushes. 
-        You might think you can sleep on a thin ½ inch yoga mat but you may also have the worst sleep in your entire life. 
-        Conversely, the weight you carry on your shoulder typically has an inverse relationship with how much you might enjoy yourself. 
+        Before we get into the specific gear, here’s the truth: despite having a “10lb base weight” ultralight setup myself — meaning everything I need to 
+        survive in the backcountry (excluding food, fuel, and water) comes in at 10lbs — that number is not what makes or breaks your trip. 
+        And when you’re just starting out, it’s not something you need to aim for. Instead, focus on balancing three things: <strong>weight, budget, and comfort</strong>. 
+        The first two are straightforward: spending a thousand dollars to shave ounces might not be worth it, but spending a hundred to cut a couple of pounds 
+        absolutely is. Comfort, however, is the wildcard — sometimes overlooked in our day to day lives, but it can be everything once you’re actually out there. You might think you can sleep on a thin ½-inch 
+        yoga mat, but that can easily become the worst sleep of your life. At the same time, the more weight you carry, the less fun you’ll likely have. 
       </p>
 
       <p>
-        As we go through each item, I’ll highlight what’s worth investing in and where you can save.
-      </p>
+If you’re not sure whether this hobby is for you yet, you also don’t need to buy everything upfront. Borrowing, renting, or prioritizing just a few key pieces is a great way to test the waters. And if you’re fortunate enough to have friends willing to lend you gear, here’s what you should look out for.      </p>
 
       <p>
-        If you’re still unsure about whether this hobby is for you, there are also ways to try backpacking without a big upfront investment — by borrowing, renting, or prioritizing only a few key pieces of gear first. 
-        If you’re fortunate to have friends that will lend you gear, here’s what you should look out for. 
+As we go through each item next, I’ll call out where it’s worth investing and where you can safely save.
       </p>
         <img 
         src="/images/GettingStartedGuide/gear.jpg" 
@@ -87,15 +41,29 @@ export default function GettingStartedBackcountry() {
       <h2><strong>Footwear</strong></h2>
 
       <p>
-        Your shoes are one of the most important pieces of gear you’ll own. You’re on your feet for hours at a time, often with a heavy pack, and the only thing between you and the ground are a few inches of rubber — so getting the right fit matters. I can’t stress this enough: your boots should have a bit of extra room when you first put them on to account for the way your feet naturally expand throughout the day. Do not buy boots that feel snug out of the box. I’ve met too many hikers who learned this the hard way, and I’ve seen more than a few black — and even missing — toenails.
+        Your shoes are one of the most important pieces of gear you’ll own. You’re on your feet for hours at a time, often with a heavy pack, 
+        and the only thing between you and the ground are a few inches of rubber — so getting the right fit matters. 
+        <strong>I can’t stress this enough</strong>: your boots should have a bit of extra room when you first put them on to account for the way your feet naturally 
+        expand throughout the day. Do not buy boots that feel snug out of the box. I’ve met too many hikers who learned this the hard way, and 
+        I’ve seen more than a few black — and even missing — toenails. 
       </p>
 
       <p>
-        If you’re on a budget, mid-cut boots or even hiking shoes can be more affordable while still giving you the grip and support you need. Just make sure whatever you choose has a reliable waterproof layer, whether that’s Gore-Tex or another equivalent membrane.
+        Many hiking boots will have some level of waterproofing by default, I'd recommend this generally, but in my experience, no boot is completely waterproof- 
+        whether that’s Gore-Tex or another equivalent membrane - they always tend to (eventually) let water in.
+
       </p>
 
       <p>
-        I won’t make specific footwear recommendations because boots are incredibly personal. Different brands fit different foot shapes, and what works for me may not work for you. Head over to your local outdoors shop (MEC, Valhalla, REI etc.) and get properly fitted for a pair of boots. The most important thing is finding the pair that fits your feet properly. 
+        If you’re on a budget, hiking shoes or even trail runners can be more affordable while still giving you the grip you need. You can save
+        a bit more money by going for non-waterproof versions too, which significantly reduces your cost compared to a full hiking boot. But be warned 
+        you'll have less support in the ankles, meaning you have to be mindful if you're carrying a heavy pack, especially on steep or tricky terrain. 
+      </p>
+
+      <p>
+        I won’t make specific footwear recommendations because boots are incredibly personal. Different brands fit different foot shapes, 
+        and what works for me may not work for you. Head over to your local outdoors shop (MEC, Valhalla, REI etc.) and get properly fitted 
+        for a pair of boots. The most important thing is finding the pair that fits your feet properly. 
       </p>
 
       <h2><strong>Hiking Pack</strong></h2>

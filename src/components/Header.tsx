@@ -38,11 +38,11 @@ export default function Header() {
       {/* About Modal */}
       {showAbout && (
         <div 
-          className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4"
+          className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-5"
           onClick={() => setShowAbout(false)}
         >
           <div 
-            className="bg-white rounded-lg shadow-2xl max-w-lg w-full p-8 relative"
+            className="bg-white rounded-lg shadow-2xl max-w-4xl w-full p-8 relative"
             onClick={(e) => e.stopPropagation()}
           >
             <button
@@ -51,17 +51,34 @@ export default function Header() {
             >
               ×
             </button>
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">About Me</h2>
+            <h2 className="text-xl font-bold text-gray-900 mb-4">About Me</h2>
             <div className="space-y-4 text-gray-600 leading-relaxed">
+
+              <img 
+              src="/images/GettingStartedGuide/assiniboine.jpg" 
+              alt="Complete backpacking gear laid out"
+              className="w-1/2 mx-auto rounded-lg shadow-lg my-8"
+              />
               <p>
-                Hi! I'm Joey Seto. I have the privilege to call Vancouver, BC my home.
+                Hi! I'm Joey Seto. Welcome to my guide on all things backcountry!
               </p>
               <p>
-                Join me as I document my adventures, from backpacking through the Rocky Mountains to discovering hidden food gems in bustling cities.
+                Growing up, my family and I had never gone camping - not even once. 
+                
+                As a first-generation immigrant family, my parents often worked their tails off to put food on the table and back then, most leisure activities required both time and money — two things they didn't have much of. 
               </p>
               <p>
-                This blog is a collection of stories, tips, and beautiful moments from my travels 
-                around the province, Canada and the world.
+                Still, I always loved being outdoors. I grew up in the suburbs of Toronto where there was plenty of greenspace. Some of my fondest memories as a kid were simply spending time with family at the park and by the lake. 
+                It wasn't until my mid-twenties that I finally discovered backpacking and went camping for the first time. This is when I realized what I'd been missing my whole life.
+              </p>
+              
+              <p>
+                Fast forward a decade later, my passion for the outdoors has only grown. I've spent the better part of my adult life building knowledge and experience in the backcountry - multiday backpacking trips around the Canadian Rockies, portaging in Ontario and BC, and even travelling internationally to do a multiday summit.
+              </p>
+
+              <p>
+              This guide is for anyone curious about getting started with backpacking, particularly for those who may not have generations of passed on gear, experience or even knowledge to get started.
+              My hope is that this becomes a resource for you to use and to make the backcountry more accessible. 
               </p>
             </div>
             <button
@@ -90,12 +107,21 @@ export default function Header() {
             >
               ×
             </button>
+            
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Get in Touch</h2>
-            <div className="space-y-4">
+                 <p>
+                Got a question? Want to provide feedback? Want to partner? 
+                Feel free to drop me an email with whatever is on your mind.            
+                </p>
+                <p>
+                &nbsp;
+                </p>
+            <div className="space-y-5">
               <div className="flex items-center gap-3 text-gray-700">
                 <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center">
                   📧
                 </div>
+              
                 <div>
                   <p className="text-sm text-gray-500">Email</p>
                   <a href="mailto:joeylokseto@gmail.com" className="font-medium hover:text-blue-600 transition">
