@@ -6,7 +6,7 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { storiesData } from "@/data/storiesData";
 
-const categories = ["All", "Adventure", "Food", "Culture", "International", "Nature", "Backpacking", "Portaging"];
+const categories = ["All", "How to Guides", "Trip Reports", "Backpacking", "Portaging", "Gear", ];
 
 export default function StoriesExplorer() {
   const searchParams = useSearchParams();

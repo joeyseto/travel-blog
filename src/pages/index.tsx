@@ -10,9 +10,9 @@ export default function Home() {
     { id: 1, title: "Backpacking", image: "/images/ab.jpg" },
     { id: 2, title: "Portaging", image: "/images/at-home-canada.JPG" },
     { id: 3, title: "Food", image: "/images/us-tx.jpg" },
-    { id: 4, title: "International", image: "/images/abroad-travel.jpg" },
 
   ];
+      <FeaturedTripsBanner trips={trips} />
 
   return (
     <>
@@ -20,7 +20,6 @@ export default function Home() {
         <title>Joey Seto - Travel Blog</title>
       </Head>
       <Hero />
-      <FeaturedTripsBanner trips={trips} />
       <StoriesGrid />
     </>
   );

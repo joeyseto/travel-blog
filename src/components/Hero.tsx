@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden bg-zinc-950">
+    <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden bg-zinc-950">
       {/* Background image */}
       <div className="absolute inset-0 opacity-70">
         <img
@@ -33,13 +33,13 @@ export default function Hero() {
         >
          
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light text-white mb-2 leading-none">
-            Adventures.<br />
-            <span className="block font-serif italic text-gray-200 text-2xl md:text-3xl lg:text-4xl">by Joey Seto</span>
+            Becoming Backcountry.<br />
+            
           </h1>
           <div className="flex items-center justify-center gap-4 mb-12">
             <div className="h-px w-16 bg-white/50"></div>
             <p className="text-lg md:text-xl text-gray-300 font-light">
-              Exploring the world one step, paddle, and bite at a time
+              The only guide you need to explore one step, paddle, or bite at a time
             </p>
             <div className="h-px w-16 bg-white/50"></div>
           </div>

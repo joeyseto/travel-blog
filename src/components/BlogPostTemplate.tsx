@@ -52,7 +52,7 @@ export default function BlogPostTemplate({
         </div>
 
         {/* Content */}
-        <div className="max-w-4xl mx-auto px-6 py-12">
+        <div className="max-w-5xl mx-auto px-6 py-12">
           {/* Tags */}
           <div className="flex gap-2 mb-8 flex-wrap">
             {tags.map((tag, i) => (
