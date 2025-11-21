@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import TripCard from "@/components/TripCard";
 
 const BC: NextPage = () => {
   return (
